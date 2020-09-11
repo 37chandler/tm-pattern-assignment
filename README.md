@@ -17,7 +17,7 @@ and returns a _dictionary_ of some key descriptive statistics.
 The cleaning should include the following: 
 
 * Tokenize on white space
-* Drop tokens that are not alphanumeric 
+* Drop tokens that are not entirely alphabetic 
 * Case fold to lowercase
 * Remove stopwords
 
@@ -32,7 +32,7 @@ The cleaning should include the following:
   * Number of unique tokens
   * Average token length
   * lexical diversity
-  * The top 10 tokens 
+  * The 10 most common tokens as a Counter object 
   
 ## Optional Work
 
